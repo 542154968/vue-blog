@@ -1,0 +1,55 @@
+$mainColor = #30b75c
+
+/*button按钮*/
+$btn(col, nCol)
+	button
+		padding: 2px 10px
+		border: 1px solid col
+		background: #fff
+		color: col
+		font-size: 12px
+		transition: all 0.3s
+		cursor: pointer
+		&:hover
+			color: nCol
+			border-color: nCol
+			border-radius: 4px
+			
+/* index之间的间距*/
+.logList
+	width: 1300px
+	margin: 30px auto
+	.log-top
+		width: 1300px
+		height: 50px
+		line-height: 50px
+		.title
+			font-size: 26px
+			color: #333
+		.more
+			float: right
+			button
+				border: none!important
+			$btn(#ececec, $mainColor)	
+
+/*基本布局*/
+$basic()
+	width: 1300px
+	margin: 0 auto
+	
+/*文字超过一行。。。*/
+$textElip()
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;	
+	
+/*contain*/
+$contain(topNum=0, bottomNum=46)
+	position: absolute
+	top: topNum
+	bottom: bottomNum
+	width: 100%
+	left: 0px
+	right: 0px
+	z-index: 9999
+												
