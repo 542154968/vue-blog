@@ -86,7 +86,7 @@ const router = new Router({
         }
 
     ]
-})
+});
 
 const defaultRouterArr = ['/list/share']
 router.beforeEach((to, from, next) => {
