@@ -20,3 +20,4 @@ npm run build --report
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 # vue-blog
+> 第一次用vue写整体项目 这里并没有放出数据库 代码烂 纯当仓库 
